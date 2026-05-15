@@ -1,0 +1,26 @@
+{
+  "name": "trade-analyze-frontend",
+  "version": "1.0.0",
+  "description": "AI-powered trading analysis platform frontend",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint src/"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "socket.io-client": "^4.5.4",
+    "axios": "^1.3.4",
+    "lightweight-charts": "^4.1.0",
+    "recharts": "^2.7.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "vite": "^4.2.1",
+    "eslint": "^8.36.0",
+    "eslint-plugin-react": "^7.32.1"
+  }
+}

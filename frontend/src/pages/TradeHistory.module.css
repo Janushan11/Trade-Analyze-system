@@ -1,0 +1,135 @@
+.container {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.container h1 {
+  font-size: 28px;
+  margin-bottom: 30px;
+  color: var(--primary);
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.input {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px 15px;
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text);
+}
+
+.tableContainer {
+  background: linear-gradient(135deg, var(--surface) 0%, var(--surface-light) 100%);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  overflow: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  border-bottom: 1px solid var(--border);
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+th {
+  padding: 15px;
+  text-align: left;
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-muted);
+  text-transform: uppercase;
+}
+
+td {
+  padding: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  font-size: 13px;
+}
+
+.symbol {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.type {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.type.buy {
+  background-color: rgba(0, 255, 65, 0.2);
+  color: var(--primary);
+}
+
+.type.sell {
+  background-color: rgba(255, 51, 51, 0.2);
+  color: var(--secondary);
+}
+
+.type.hold {
+  background-color: rgba(255, 200, 0, 0.2);
+  color: #ffc800;
+}
+
+.patterns {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.tag {
+  display: inline-block;
+  padding: 3px 8px;
+  background-color: rgba(0, 255, 65, 0.1);
+  color: var(--primary);
+  border-radius: 3px;
+  font-size: 11px;
+  border: 1px solid rgba(0, 255, 65, 0.2);
+}
+
+.risk {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.risk.low {
+  background-color: rgba(0, 255, 65, 0.2);
+  color: var(--primary);
+}
+
+.risk.medium {
+  background-color: rgba(255, 200, 0, 0.2);
+  color: #ffc800;
+}
+
+.risk.high {
+  background-color: rgba(255, 51, 51, 0.2);
+  color: var(--secondary);
+}
+
+.time {
+  color: var(--text-muted);
+  font-size: 12px;
+}
+
+.empty {
+  padding: 40px;
+  text-align: center;
+  color: var(--text-muted);
+}
